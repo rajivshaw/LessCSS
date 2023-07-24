@@ -1,0 +1,120 @@
+.alert {
+  margin-bottom: 10px;
+  padding: 20px 15px;
+}
+.alert-primary {
+  background-color: #a9d1ec;
+  color: #20638f;
+  border-radius: 5px;
+}
+.alert-danger {
+  background-color: #fbdedb;
+  color: #d62c1a;
+  border-radius: 5px;
+}
+.alert-success {
+  background-color: #bcf0d2;
+  color: #25a25a;
+  border-radius: 5px;
+}
+.alert-warning {
+  background-color: #fbedb8;
+  color: #c29d0b;
+  border-radius: 5px;
+}
+.alert-info {
+  background-color: #98f1df;
+  color: #148f77;
+  border-radius: 5px;
+}
+.alert-dark {
+  background-color: #3f32cf;
+  color: #070517;
+  border-radius: 5px;
+}
+.btn {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+  transition: 0.4s all;
+}
+.btn-primary {
+  background-color: #2980b9;
+}
+.btn-primary:hover {
+  background-color: #6ab0de;
+}
+.btn-danger {
+  background-color: #e74c3c;
+}
+.btn-danger:hover {
+  background-color: #f29f97;
+}
+.btn-warning {
+  background-color: #f1c40f;
+}
+.btn-warning:hover {
+  background-color: #f7dc6f;
+}
+.btn-success {
+  background-color: #2ecc71;
+}
+.btn-success:hover {
+  background-color: #208e4e;
+}
+.btn-info {
+  background-color: #1abc9c;
+}
+.btn-info:hover {
+  background-color: #117964;
+}
+.btn-dark {
+  background-color: #130f40;
+}
+.btn-dark:hover {
+  background-color: #251e7e;
+}
+body {
+  font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.hero {
+  align-items: center;
+  background-color: #3498db;
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  margin-bottom: 10px;
+  width: 100vw;
+}
+.hero-text {
+  color: white;
+  text-align: center;
+}
+.hero-text-heading {
+  font-size: 100px;
+  font-weight: 100;
+  margin: 0;
+  text-transform: uppercase;
+}
+.hero-text-subheading {
+  font-weight: 100;
+  margin: 0;
+  letter-spacing: 6px;
+}
+.container {
+  padding: 30px 70px;
+}
+.mydiv {
+  width: 300px;
+  height: 300px;
+  color: red;
+  background-color: black;
+  border: 1px solid blue;
+}

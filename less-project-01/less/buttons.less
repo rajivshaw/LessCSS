@@ -1,0 +1,47 @@
+.btn{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+    transition: 0.4s all;
+
+    &-primary{
+        background-color: @bg-primary;
+        &:hover{
+            background-color: lighten(@bg-primary, @btn-hover-lighten)
+        }
+    }
+    &-danger{
+        background-color: @bg-danger;
+        &:hover{
+            background-color: lighten(@bg-danger, @btn-hover-lighten);
+        }
+    }
+    &-warning{
+        background-color: @bg-warning;
+        &:hover{
+            background-color: lighten(@bg-warning, @btn-hover-lighten);
+        }
+    }
+    &-success{
+        background-color: @bg-success;
+        &:hover{
+            background-color: darken(@bg-success, @btn-hover-darken);
+        }
+    }
+    &-info{
+        background-color: @bg-info;
+        &:hover{
+            background-color: darken(@bg-info, @btn-hover-darken);
+        }
+    }
+    &-dark{
+        background-color: @bg-dark;
+        &:hover{
+            background-color: lighten(@bg-dark, @btn-hover-darken);
+        }
+    }
+}
